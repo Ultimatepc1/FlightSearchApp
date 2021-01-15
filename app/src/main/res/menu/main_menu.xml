@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/earlyflight"
+        android:icon="@drawable/ic_sort_hotel"
+        android:title="Earliest Flights Available" />
+    <item
+        android:id="@+id/fastestflight"
+        android:icon="@drawable/ic_sort_hotel"
+        android:title="Fastest Reaching Flights" />
+    <item
+        android:id="@+id/minfare"
+        android:icon="@drawable/ic_sort_hotel"
+        android:title="Minimum Cost" />
+    <item
+        android:id="@+id/maxfare"
+        android:icon="@drawable/ic_sort_hotel"
+        android:title="Maximum Cost" />
+    <item
+        android:id="@+id/defaultlist"
+        android:title="Default" />
+</menu>

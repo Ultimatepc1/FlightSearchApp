@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rellayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/cardview2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/combolocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sf_pro_text_medium"
+                        android:text="@string/hyd_bom"
+                        android:textColor="@color/txt_color"
+                        android:textSize="21.7sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blue_gredient"
+                    android:orientation="vertical"
+                    android:paddingLeft="11.7dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="11.7dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/landingdate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sf_pro_text_regular"
+                        android:text="@string/thu_08_sept"
+                        android:textColor="@color/white"
+                        android:textSize="13.3sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_text_medium"
+                        android:gravity="center"
+                        android:text="@string/txt_return"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="43.3dp"
+                    android:layout_height="43.3dp"
+                    android:src="@drawable/air_india" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/flightairline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_pro_text_regular"
+                            android:text="@string/air_india"
+                            android:textColor="@color/txt_color"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/arrival_Txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/_12_00"
+                                android:textColor="@color/txt_color"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/departingdate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/thu_05_sept"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/airport1name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/hyderabad_international_airport"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/hour_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/_2_hr"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="13.3sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/viewline" />
+
+                            <TextView
+                                android:id="@+id/stop_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/non_stop"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/depart_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/_15_00"
+                                android:textColor="@color/txt_color"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/landingdate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/thu_08_sept"
+                                android:textAlignment="viewEnd"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/airport2name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/sf_pro_text_regular"
+                                android:text="@string/mumbai_international_airport"
+                                android:textAlignment="viewEnd"
+                                android:textColor="@color/hint_txt_color"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/flightclass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sf_pro_text_regular"
+                        android:text="@string/non_stop_business_class"
+                        android:textColor="@color/grey"
+                        android:textSize="13.3sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/fareview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview2"></ListView>
+    </RelativeLayout>
